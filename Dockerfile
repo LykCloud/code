@@ -20,4 +20,4 @@ RUN apt-get update -y && \
 ENV PORT=8080
 
 # Start VSCode
-CMD code-server --port $PORT --disable-telemetry --auth none
+CMD code-server --port 8080 --disable-telemetry --auth none
